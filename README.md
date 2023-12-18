@@ -25,6 +25,8 @@ Examples of miscalculated tweets are:
  
 <img width="464" alt="Screenshot 2023-12-18 at 3 34 03 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/7e72eb95-d737-4b4c-82f2-644f70992fc9">
 
+</br> 
+
 <img width="1007" alt="Screenshot 2023-12-18 at 3 35 02 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/71abc2fe-0501-470c-b9d9-f432ee7bea58">
 
 The miscalculated tweets are tweets that depend on the emoji to understand the meaning.
@@ -35,6 +37,8 @@ During preprocessing, I replaced all the emojis with blank spaces. When doing tr
 Examples of miscalculated tweets are:
 
 <img width="390" alt="Screenshot 2023-12-18 at 3 37 09 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/08fae3a7-627c-432b-914c-cf23833f6e57">
+
+</br>
 
 <img width="513" alt="Screenshot 2023-12-18 at 3 37 27 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/872bd1d9-2181-425e-b42e-618044bd1f2c">
 
@@ -47,11 +51,25 @@ Examples of miscalculated tweets are:
 
 <img width="701" alt="Screenshot 2023-12-18 at 3 42 08 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/91524612-7124-4aba-9fa4-26b5ac478843">
 
+</br>
+
 <img width="967" alt="Screenshot 2023-12-18 at 3 43 58 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/82dc1ad3-9e73-44d8-9590-1fb6f9e9c3a2">
 
+Again, the use of slang ("slay") and irony is not caught by the model. 
 
+### Just Emojis
+During preprocessing, I only used emojis and removed all text. When doing train, test, split, I used the Text column but not the Emoji column. The Text contains all of the emojis, including the one listed in the Emoji column. This trial had the highest accuracy of 0.837209.
 
-Results: This section presents the findings of the research, including descriptive statistics, tables, and graphs. It should provide a clear and concise summary of the main results, highlighting any patterns or trends observed. [NOTE: 2-4 paragraphs]
+Examples of miscalculated tweets are:
+
+<img width="255" alt="Screenshot 2023-12-18 at 3 48 34 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/22588f5b-0750-4b39-8598-2895ee126198">
+
+</br>
+
+<img width="471" alt="Screenshot 2023-12-18 at 3 49 05 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/33f72f15-ae6d-40e7-8c83-cb761c9fffc9">
+
+The miscalculated tweets in this section are mainly tweets where the emoji contradicts the meaning of the phrase, or if the emoji is often used in an opposite context. The tilted laughing emoji in the second tweet is often used in negative contexts, which is why that tweet was marked as negative. 
+
 
 Discussion: The discussion section interprets the results of the study in light of the research question and literature review. It should explain how the findings relate to previous research and provide a critical analysis of their implications. [NOTE: 6-10 paragraphs]
 
