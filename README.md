@@ -10,6 +10,8 @@ Next, I took a small subset of the 860,000 total tweets and made a csv file with
 
 After labeling them, I did some exploration of the data by graphing the distribution of positive and negative tweets and their length. 
 
+<img width="404" alt="Screenshot 2023-12-18 at 2 32 11 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/1e9e2b58-d5f5-4ec1-a7f3-0020a5b53e9d">
+
 Methodology/Dataset: This section explains the research design, including the data sources, data collection methods, and analysis techniques used. It also discusses any assumptions made and the rationale behind the chosen methods. [NOTE: 2-4 paragraphs]
 
 Results: This section presents the findings of the research, including descriptive statistics, tables, and graphs. It should provide a clear and concise summary of the main results, highlighting any patterns or trends observed. [NOTE: 2-4 paragraphs]
