@@ -22,7 +22,7 @@ To get an accuracy, I decided to both train and test on my labeled data. I perfo
 During preprocessing, I replaced all the emojis with blank spaces. When doing train, test, split, I only used the Text column as the X input. My test size was 0.2, which was consistent across all of the tests. The accuracy I got for this was 0.691860.
 
 Examples of miscalculated tweets are:
-
+ 
 <img width="464" alt="Screenshot 2023-12-18 at 3 34 03 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/7e72eb95-d737-4b4c-82f2-644f70992fc9">
 
 <img width="1007" alt="Screenshot 2023-12-18 at 3 35 02 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/71abc2fe-0501-470c-b9d9-f432ee7bea58">
