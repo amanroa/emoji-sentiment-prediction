@@ -12,6 +12,11 @@ After labeling them, I did some exploration of the data by graphing the distribu
 
 <img width="404" alt="Screenshot 2023-12-18 at 2 32 11 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/1e9e2b58-d5f5-4ec1-a7f3-0020a5b53e9d">
 
+Next, I created a Naive Bayes model using the code that we learned in class (JamesMTucker, n.d.). My X input contained the text stripped of emojis, but I appended the name of the emoji that each tweet was classified under to the end of the tweet. So each input looked something like "I LOVE this artist eyes_with_hearts". I wanted to train my model on all of the labeled data that I had, and test it on a big chunk of the unlabeled data. However, I wasn't able to measure accuracy because the testing data was all unlabeled. To get some sort of result, I decided to make the same graph as above, but with the tweets from the testing data and their newly assigned labels. It wasn't too surprising that the graph for the test data looked similar to the graph for the training data. 
+
+<img width="573" alt="Screenshot 2023-12-18 at 2 44 44 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/175f154f-433f-47ae-8e5d-f0f0341f7a02">
+
+
 Methodology/Dataset: This section explains the research design, including the data sources, data collection methods, and analysis techniques used. It also discusses any assumptions made and the rationale behind the chosen methods. [NOTE: 2-4 paragraphs]
 
 Results: This section presents the findings of the research, including descriptive statistics, tables, and graphs. It should provide a clear and concise summary of the main results, highlighting any patterns or trends observed. [NOTE: 2-4 paragraphs]
