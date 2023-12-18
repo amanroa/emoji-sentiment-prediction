@@ -70,10 +70,9 @@ Examples of miscalculated tweets are:
 
 The miscalculated tweets in this section are mainly tweets where the emoji contradicts the meaning of the phrase, or if the emoji is often used in an opposite context. The tilted laughing emoji in the second tweet is often used in negative contexts, which is why that tweet was marked as negative. 
 
+Through my tests, I have found that as the number of emojis increases, the accuracy of the model increases. Also, surprisingly, the accuracy was highest when I was analyzing just emojis and no text. This could mean that emojis carry more sentiment than we think, and should not be discounted from sentiment analysis. The model sometimes still struggles with sarcasm and slang. For example, “slay” and "fire" are positive in slang, but by definition are negative. In the future, because I trained and tested on < 1,000 tweets, I believe that it would be worth training and testing the model on more data. 
 
-Discussion: The discussion section interprets the results of the study in light of the research question and literature review. It should explain how the findings relate to previous research and provide a critical analysis of their implications. [NOTE: 6-10 paragraphs]
-
-Conclusion: This section summarizes the main findings of the study, restates the research question, and discusses the implications of the research for future research and practice. [NOTE: 1-2 paragraphs]
+In conclusion, adding emojis to tweets when doing sentiment analysis greatly improves my Naive Bayes model. I believe that emojis should not be so quickly discounted when doing sentimen analysis because of how they increased the accuracy. Even just adding one emoji made the accuray jump by nearly 0.1. That is a lot for accuracy measurements! Future research into this topic could explore training and testing the model on more tweets. We could also try to figure out a way for the model to understand sarcasm, irony, or slang. That would greatly improve the model's accuracy. Overall, adding emojis to tweets is better for sentiment analysis than using just the text - and using only emojis gives us the most accurate model. 
 
 ### References
 emoji. (2023, December 5). PyPI. https://pypi.org/project/emoji/
