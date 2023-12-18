@@ -16,6 +16,9 @@ Next, I created a Naive Bayes model using the code that we learned in class (Jam
 
 <img width="573" alt="Screenshot 2023-12-18 at 2 44 44 PM" src="https://github.com/amanroa/emoji-sentiment-prediction/assets/26678552/175f154f-433f-47ae-8e5d-f0f0341f7a02">
 
+To get an accuracy, I decided to both train and test on my labeled data. I performed 4 trials: training and testing on only text, using the text and one emoji, using the text and all of the emojis within the tweet, and finally, using only emojis.
+
+### Just 
 
 Methodology/Dataset: This section explains the research design, including the data sources, data collection methods, and analysis techniques used. It also discusses any assumptions made and the rationale behind the chosen methods. [NOTE: 2-4 paragraphs]
 
