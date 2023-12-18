@@ -4,7 +4,11 @@ Do emojis in tweets impact sentiment prediction models? This is the question tha
 
 Twitter (now X) is a platform where people can share their thoughts and opinions through words, pictures, or videos. Many tweets contain emojis, and they can change or add to the meaning of tweets. Many tweet sentiment analysis models only focus on the words in the tweets when training and testing - and we did it this way in class too (JamesMTucker, n.d.). However, emojis add a lot to the meaning of some tweets. For example, "I LOVE this artist 😍" vs "I LOVE this artist 🙄" have two very different meanings. This is why I chose to focus on this topic for my project. By incorporating emojis into text sentiment analysis, it could create a more accurate model.
  
-The dataset that I used was taken from Kaggle (Tweets With Emoji, 2023). 
+The dataset that I used was taken from Kaggle (Tweets With Emoji, 2023). It contained 43 separate csv files, categorized by emoji. Each csv file had about 20k tweets per emoji. If a tweet contained multiple emojis, the creators just picked one of the emojis in the tweet to categorize it under. To make it easier for me, I decided to merge the csv files into a large DataFrame. In order to preserve which emoji they were categorized under, I made 2 columns in my DataFrame: Text (tweet) and Emoji, which had the name of the csv file the tweet was in. For example, face_savoring_food or thinking_face. 
+
+Next, I took a small subset of the 860,000 total tweets and made a csv file with an equal amount of tweets per emoji. It had 860 total tweets. I did this because the original dataset didn't contain any sentiment labels, so I had to add them manually. Adding sentiment to hundreds of thousands of tweets was out of the question, so I chose to label the subset of the entire dataset. 
+
+After labeling them, I did some exploration of the data by graphing the distribution of positive and negative tweets and their length. 
 
 Methodology/Dataset: This section explains the research design, including the data sources, data collection methods, and analysis techniques used. It also discusses any assumptions made and the rationale behind the chosen methods. [NOTE: 2-4 paragraphs]
 
